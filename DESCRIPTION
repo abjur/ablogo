@@ -1,0 +1,12 @@
+Package: ablogo
+Title: Package to add ABJ visual identity
+Version: 0.0.0.9000
+Authors@R: person("Julio", "Trecenti", email = "jtrecenti@abj.org.br", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.4.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: magrittr,
+    magick
+RoxygenNote: 6.0.1
