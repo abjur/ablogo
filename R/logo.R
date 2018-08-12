@@ -11,7 +11,7 @@
 #'
 #' @export
 add_abj_logo <- function(img,
-                         logo = system.file("logo.png", package = "logo"),
+                         logo = system.file("logo.png", package = "ablogo"),
                          prop = 0.1,
                          position = "bottom") {
   logo <- magick::image_read(logo)
